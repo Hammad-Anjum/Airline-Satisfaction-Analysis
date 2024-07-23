@@ -4,7 +4,7 @@ This project consists of analyzing the 'Airline Satisfaction' dataset that is av
 
 
 ## Dataset
-The dataset is available at : https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction and contains the following:
+The dataset is available at : https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction and contains 23 columns with 100,000+ rows. The columns are as follows:
 - Gender: Gender of the passengers (Female, Male)
 - Customer Type: The customer type (Loyal customer, disloyal customer)
 - Age: The actual age of the passengers
@@ -31,4 +31,137 @@ The dataset is available at : https://www.kaggle.com/datasets/teejmahal20/airlin
 
 ## Models 
 After preprocessing and handling class imbalance, the following models were built and evaluated on the test set and test file:
+
+### Logistic Regression
+Accuracy score of testing set = 0.87 
+
+Precision score of testing set = 0.87 
+
+Recall score of testing set = 0.87 
+
+F1 score of testing set = 0.87 
+
+--------------------------------------
+Accuracy score on testing file = 0.56 
+
+Precision score on testing file = 0.31 
+
+Recall score on testing file = 0.56 
+
+F1 score on testing file = 0.4 
+
+## Random Forest 
+Accuracy score of testing set = 0.97 
+
+Precision score of testing set = 0.97 
+
+Recall score of testing set = 0.97 
+
+F1 score of testing set = 0.97 
+
+-----------------------------------
+Accuracy score on testing file = 0.96 
+
+Precision score on testing file = 0.96 
+
+Recall score on testing file = 0.96 
+
+F1 score on testing file = 0.95 
+
+
+### Decision Tree 
+Accuracy score of testing set = 0.95 
+
+Precision score of testing set = 0.95 
+
+Recall score of testing set = 0.95 
+
+F1 score of testing set = 0.95 
+
+-----------------------------------
+Accuracy score on testing file = 0.87 
+
+Precision score on testing file = 0.87 
+
+Recall score on testing file = 0.87 
+
+F1 score on testing file = 0.87 
+
+### K-Neighbors 
+Accuracy score of testing set = 0.93 
+
+Precision score of testing set = 0.93 
+
+Recall score of testing set = 0.93 
+
+F1 score of testing set = 0.93 
+
+------------------------------------
+Accuracy score on testing file = 0.75 
+
+Precision score on testing file = 0.75 
+
+Recall score on testing file = 0.75 
+
+F1 score on testing file = 0.75 
+
+### SVM 
+
+Accuracy score of testing set = 0.93 
+
+Precision score of testing set = 0.93 
+
+Recall score of testing set = 0.93 
+
+F1 score of testing set = 0.93 
+
+------------------------------------
+Accuracy score on testing file = 0.44 
+
+Precision score on testing file = 0.19 
+
+Recall score on testing file = 0.44 
+
+F1 score on testing file = 0.27 
+
+### MLP 
+
+Accuracy score of testing set = 0.95 
+
+Precision score of testing set = 0.95 
+
+Recall score of testing set = 0.95 
+
+F1 score of testing set = 0.95 
+
+----------------------------------------
+Accuracy score on testing file = 0.46 
+
+Precision score on testing file = 0.61 
+
+Recall score on testing file = 0.46 
+
+F1 score on testing file = 0.34 
+
+### Naive Bayes
+
+Accuracy score of testing set = 0.85 
+
+Precision score of testing set = 0.86 
+
+Recall score of testing set = 0.85 
+
+F1 score of testing set = 0.85 
+
+--------------------------------------
+
+Accuracy score on testing file = 0.52 
+
+Precision score on testing file = 0.6 
+
+Recall score on testing file = 0.52 
+
+F1 score on testing file = 0.48 
+
+
 
